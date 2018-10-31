@@ -11,11 +11,20 @@
 	padding: 0;
 }
 
+.catList {
+	display: flex;
+	flex-flow: column wrap;
+	width: 30%;
+	padding: 10px;
+	text-align: left;
+	align: left;
+}
+
 .catContainer {
 	display: flex;
 	flex-flow: column wrap;
-	width: 50%;
-	padding: 10px;
+	width: 70%;
+	padding: 10px 20px 0 0;
 	text-align: center;
 	align: center;
 }
@@ -23,15 +32,16 @@
 .catName {
 	text-align: center;
 	align: center;
-	font-size: 20px;
 }
 
 .catImg {
 	width: 100%;
+	margin: 10px 0 10px;
+	
 }
 
 .catClickCount {
 	text-align: center;
 	align: center;
-	font-size: 20px;
+	font-size: 30px;
 }
